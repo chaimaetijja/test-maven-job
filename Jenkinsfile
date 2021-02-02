@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Package') {
       steps {
-        mvn package
+          mvn package
       }
     }
   }
